@@ -1,0 +1,4 @@
+# Estudo de Caso: Um Jogo de Azar 
+# Nesta seção, simulamos o popular jogo de dados conhecido como “craps”. Aqui está a descrição dos requisitos: Você lança dois dados de seis faces, cada um contendo as faces um, dois, três, quatro, cinco e seis pontos, respectivamente. Quando os dados param, calcula-se a soma dos pontos nas duas faces superiores. Se a soma for 7 ou 11 na primeira jogada, você vence. Se a soma for 2, 3 ou 12 na primeira jogada (chamado de “craps”), você perde (ou seja, a “casa” vence). Se a soma for 4, 5, 6, 8, 9 ou 10 na primeira jogada, essa soma se torna o seu “ponto”. Para vencer, você deve continuar lançando os dados até fazer o seu ponto novamente (ou seja, lançar aquele mesmo valor). Você perde ao tirar 7 antes de fazer o ponto.
+
+import random
